@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Suraj">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="1dp"
+        android:background="@drawable/suraj_bg">
+
+        <TextView
+            android:id="@+id/textSuraj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:text="A gym freak, an otaku, a future IT engineer and a graphics designer, Suraj literally towers over all of us with his 6ft4in body."
+            android:textColor="#FFFFFF" />
+        <Button
+            android:id="@+id/buttonPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textSuraj"
+            android:layout_centerHorizontal="true"
+            android:text="Click Here to Play/Pause His Favourite Song" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
