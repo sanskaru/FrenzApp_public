@@ -60,3 +60,7 @@ Or just select Run 'app' and it would run on the AVD emulator, the default Andro
 * For
 * My
 * Friends
+
+## Special Note
+
+Just made it for fun.
